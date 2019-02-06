@@ -4,13 +4,15 @@ Tulipa bot sends random images or gifs as a response of a command.
 
 Using the public API [https://random.dog/](https://random.dog/)
 
+Access the bot via the following url (if using Web/Desktop Telegram): [https://telegram.me/tulipa_bot](https://telegram.me/tulipa_bot) or via @tulipa_bot
+
 # Commands
 Currently, there is only one command. 
 ```
 /doggo - typing it and confirming sends random images or gifs of dogs
 ```
 
-# how to run locally
+# How to run locally
 Install dependencies
 
 ```
@@ -21,9 +23,8 @@ Run the `main.py` file
 ```
 python3 main.py
 ```
-Access the bot via the following url (if using Web/Desktop Telegram): [https://telegram.me/tulipa_bot](https://telegram.me/tulipa_bot) or via @tulipa_bot
 
-# dependencies
+# Dependencies
 
 - python-telegram-bot
 - python-dotenv
