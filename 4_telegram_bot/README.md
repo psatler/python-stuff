@@ -26,5 +26,12 @@ python3 main.py
 
 # Dependencies
 
-- python-telegram-bot
+- python-telegram-bot: [https://python-telegram-bot.readthedocs.io/en/stable/](https://python-telegram-bot.readthedocs.io/en/stable/)
 - python-dotenv
+
+# Useful links
+Links below are not only related to Python
+- [Bot with Nodejs deployed to Now](https://scotch.io/tutorials/how-to-build-a-telegram-bot-using-nodejs-and-now)
+- [Marco Polo Bot with Nodejs](https://www.sohamkamani.com/blog/2016/09/21/making-a-telegram-bot/)
+- [Serverless Python Telegram bot](https://medium.freecodecamp.org/how-to-build-a-server-less-telegram-bot-227f842f4706)
+- [Webhook using self-signed certificate and Flask (with python-telegram-bot library)](https://gist.github.com/leandrotoledo/4e9362acdc5db33ae16c)
