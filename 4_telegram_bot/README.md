@@ -30,6 +30,8 @@ python3 main.py
 - python-dotenv
 
 # Useful links
+- [Core API Docs of Telegram](https://core.telegram.org/bots/api#sendmessage): It has the methods and its parameters and description
+
 Links below are not only related to Python
 - [Bot with Nodejs deployed to Now](https://scotch.io/tutorials/how-to-build-a-telegram-bot-using-nodejs-and-now)
 - [Marco Polo Bot with Nodejs](https://www.sohamkamani.com/blog/2016/09/21/making-a-telegram-bot/)

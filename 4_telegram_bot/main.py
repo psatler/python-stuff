@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv() # to load .env to environment variables, so we can use os.environ
 
 
-class Bot_Handler:
+class Bot_Image_Gif_Handler:
     def __init__(self, token):
         self.token = token
         self.telegram_api_url = "https://api.telegram.org/bot{}/".format(token)
@@ -44,7 +44,7 @@ class Bot_Handler:
 
 def main():
     TOKEN = os.environ['DOG_API_TOKEN']
-    bot = Bot_Handler(TOKEN)
+    bot = Bot_Image_Gif_Handler(TOKEN)
     updater = Updater(TOKEN)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('doggo', bot.get_doggo))
