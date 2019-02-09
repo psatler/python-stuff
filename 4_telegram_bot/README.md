@@ -35,3 +35,4 @@ Links below are not only related to Python
 - [Marco Polo Bot with Nodejs](https://www.sohamkamani.com/blog/2016/09/21/making-a-telegram-bot/)
 - [Serverless Python Telegram bot](https://medium.freecodecamp.org/how-to-build-a-server-less-telegram-bot-227f842f4706)
 - [Webhook using self-signed certificate and Flask (with python-telegram-bot library)](https://gist.github.com/leandrotoledo/4e9362acdc5db33ae16c)
+- [Echo bot with Python - Both parts 1 and 2](https://www.reddit.com/r/Python/comments/5hctvj/tutorials_building_telegram_bots_using_python/)

@@ -48,7 +48,7 @@ def main():
     updater = Updater(TOKEN)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('doggo', bot.get_doggo))
-    updater.start_polling()
+    updater.start_polling(timeout=100) 
     updater.idle()
 
 if __name__ == '__main__':
