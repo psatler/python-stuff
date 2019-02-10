@@ -43,7 +43,7 @@ class Bot_Image_Gif_Handler:
 #######################
 
 def main():
-    TOKEN = os.environ['DOG_API_TOKEN']
+    TOKEN = os.environ['TELEGRAM_API_TOKEN']
     bot = Bot_Image_Gif_Handler(TOKEN)
     updater = Updater(TOKEN)
     dp = updater.dispatcher
