@@ -27,18 +27,18 @@ python3 main.py
 
 # Deploying to Heroku
 TL;DR:
-- Add a requirements.txt with the dependencies needed
-- Add a Procfile with the command used to run the Python script (your main executable).
-- I also added a runtime with the version I used
-- Deployed to Heroku using its CLI, using the following commands:
-    - ```
+- Add a _requirements.txt_ with the dependencies needed
+- Add a _Procfile_ with the command used to run the Python script (your main executable).
+- I also added a _runtime.txt_ with the version I used
+- Deployed to Heroku using its CLI, using the following commands: 
+    ```
     heroku login
     heroku create
     git push heroku master
     heroku ps:scale worker=1
     heroku open (this probably will show an error)
     heroku logs --tail (to see the logs)
-     ```
+    ```
 For a more detailed explanation of the process of deploying to [heroku](https://devcenter.heroku.com/categories/reference), check this [repository](https://github.com/michaelkrukov/heroku-python-script).
 # Dependencies
 
