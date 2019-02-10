@@ -18,16 +18,33 @@ Install dependencies
 ```
 pip3 install python-telegram-bot
 pip3 install python-dotenv
+pip3 install requests
 ```
 Run the `main.py` file
 ```
 python3 main.py
 ```
 
+# Deploying to Heroku
+TL;DR:
+- Add a requirements.txt with the dependencies needed
+- Add a Procfile with the command used to run the Python script (your main executable).
+- I also added a runtime with the version I used
+- Deployed to Heroku using its CLI, using the following commands:
+    - ```
+    heroku login
+    heroku create
+    git push heroku master
+    heroku ps:scale worker=1
+    heroku open (this probably will show an error)
+    heroku logs --tail (to see the logs)
+     ```
+For a more detailed explanation of the process of deploying to [heroku](https://devcenter.heroku.com/categories/reference), check this [repository](https://github.com/michaelkrukov/heroku-python-script).
 # Dependencies
 
 - python-telegram-bot: [https://python-telegram-bot.readthedocs.io/en/stable/](https://python-telegram-bot.readthedocs.io/en/stable/)
-- python-dotenv
+- python-dotenv: to load `.env` variables
+- requests: to perform http requests
 
 # Useful links
 - [Core API Docs of Telegram](https://core.telegram.org/bots/api#sendmessage): It has the methods and its parameters and description
