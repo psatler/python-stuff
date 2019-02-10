@@ -55,3 +55,6 @@ Links below are not only related to Python
 - [Serverless Python Telegram bot](https://medium.freecodecamp.org/how-to-build-a-server-less-telegram-bot-227f842f4706)
 - [Webhook using self-signed certificate and Flask (with python-telegram-bot library)](https://gist.github.com/leandrotoledo/4e9362acdc5db33ae16c)
 - [Echo bot with Python - Both parts 1 and 2](https://www.reddit.com/r/Python/comments/5hctvj/tutorials_building_telegram_bots_using_python/)
+
+# License
+This project is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT) © Pablo Satler 2019
